@@ -1,0 +1,125 @@
+{
+  "project_id": "msbatest",
+  "dataset": "bax421",
+  "tables": [
+    {
+      "table_name": "customer_vhw",
+      "columns": [
+        {
+          "column_name": "Cust_ID",
+          "ordinal_position": "1",
+          "is_nullable": "YES",
+          "data_type": "INT64"
+        },
+        {
+          "column_name": "EMAIL",
+          "ordinal_position": "2",
+          "is_nullable": "YES",
+          "data_type": "STRING",
+          "is_pii": "YES"
+        },
+        {
+          "column_name": "FIRST_NAME",
+          "ordinal_position": "3",
+          "is_nullable": "YES",
+          "data_type": "STRING"
+        },
+        {
+          "column_name": "LAST_NAME",
+          "ordinal_position": "4",
+          "is_nullable": "YES",
+          "data_type": "STRING"
+        },
+        {
+          "column_name": "AFFILIATION",
+          "ordinal_position": "5",
+          "is_nullable": "YES",
+          "data_type": "STRING"
+        },
+        {
+          "column_name": "Registration_Date",
+          "ordinal_position": "6",
+          "is_nullable": "YES",
+          "data_type": "DATE"
+        },
+        {
+          "column_name": "Deactivation_Date",
+          "ordinal_position": "7",
+          "is_nullable": "YES",
+          "data_type": "DATE"
+        },
+        {
+          "column_name": "birth_year",
+          "ordinal_position": "8",
+          "is_nullable": "YES",
+          "data_type": "INT64"
+        },
+        {
+          "column_name": "gender",
+          "ordinal_position": "9",
+          "is_nullable": "YES",
+          "data_type": "STRING"
+        }
+      ]
+    },
+    {
+      "table_name": "cust_order",
+      "columns": [
+        {
+          "column_name": "order_num",
+          "ordinal_position": "1",
+          "is_nullable": "YES",
+          "data_type": "INT64"
+        },
+        {
+          "column_name": "cust_id",
+          "ordinal_position": "2",
+          "is_nullable": "YES",
+          "data_type": "INT64"
+        },
+        {
+          "column_name": "prod_id",
+          "ordinal_position": "3",
+          "is_nullable": "YES",
+          "data_type": "INT64"
+        },
+        {
+          "column_name": "price_id",
+          "ordinal_position": "4",
+          "is_nullable": "YES",
+          "data_type": "INT64"
+        },
+        {
+          "column_name": "qty",
+          "ordinal_position": "5",
+          "is_nullable": "YES",
+          "data_type": "INT64"
+        },
+        {
+          "column_name": "price",
+          "ordinal_position": "6",
+          "is_nullable": "YES",
+          "data_type": "FLOAT64"
+        },
+        {
+          "column_name": "amount",
+          "ordinal_position": "7",
+          "is_nullable": "YES",
+          "data_type": "FLOAT64"
+        },
+        {
+          "column_name": "txn_date",
+          "ordinal_position": "8",
+          "is_nullable": "YES",
+          "data_type": "DATE"
+        },
+        {
+          "column_name": "createTs",
+          "ordinal_position": "9",
+          "is_nullable": "YES",
+          "data_type": "TIMESTAMP"
+        }
+      ]
+    }
+  ]
+}
